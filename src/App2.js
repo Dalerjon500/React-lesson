@@ -57,40 +57,40 @@
 
 
 
-import { useState } from "react";
-
-function App2() {
-  const [size, setSize] = useState(200); // Rasm o'lchami boshlang'ich 200px
-
-  const increaseSize = () => {
-    setSize(size + 20); // Rasmni kattalashtirish
-  };
-
-  const decreaseSize = () => {
-    if (size > 50) setSize(size - 20); // Rasmni kichiklashtirish (50px dan kichik bo'lmasin)
-  };
-
-  return (
-      <div style={{ textAlign: "center", marginTop: "50px" }}>
-        <img
-            src="https://via.placeholder.com/300" // O'zingizning rasm URL'ni qo'yishingiz mumkin
-            alt="Example"
-            style={{
-              width: $[size]px,
-              height: ${size}px,
-              border: "2px solid black",
-            }}
-        />
-        <div style={{ marginTop: "20px" }}>
-          <button onClick={increaseSize} style={{ margin: "10px", padding: "10px" }}>
-            +
-          </button>
-          <button onClick={decreaseSize} style={{ margin: "10px", padding: "10px" }}>
-            -
-          </button>
-        </div>
-      </div>
-  );
-}
-
-export default App2;
+// import { useState } from "react";
+//
+// function App2() {
+//   const [size, setSize] = useState(200); // Rasm o'lchami boshlang'ich 200px
+//
+//   const increaseSize = () => {
+//     setSize(size + 20); // Rasmni kattalashtirish
+//   };
+//
+//   const decreaseSize = () => {
+//     if (size > 50) setSize(size - 20); // Rasmni kichiklashtirish (50px dan kichik bo'lmasin)
+//   };
+//
+//   return (
+//       <div style={{ textAlign: "center", marginTop: "50px" }}>
+//         <img
+//             src="https://via.placeholder.com/300" // O'zingizning rasm URL'ni qo'yishingiz mumkin
+//             alt="Example"
+//             style={{
+//               width: $[size]px,
+//               height: ${size}px,
+//               border: "2px solid black",
+//             }}
+//         />
+//         <div style={{ marginTop: "20px" }}>
+//           <button onClick={increaseSize} style={{ margin: "10px", padding: "10px" }}>
+//             +
+//           </button>
+//           <button onClick={decreaseSize} style={{ margin: "10px", padding: "10px" }}>
+//             -
+//           </button>
+//         </div>
+//       </div>
+//   );
+// }
+//
+// export default App2;
