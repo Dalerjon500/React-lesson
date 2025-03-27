@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color : blanchedalmond;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+
+.sidebar {
+    height: 100vh;
+    background-color: var(--color);
+    border-right: 3px solid black;
+    padding: 8px;
+}
+
+.sidebar .user{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px 0;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+
+.btn{
+    width: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.content {
+    height: 100vh;
+    background-color:  var(--color);
+    padding: 10px;
+}
+
+input{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.user.active{
+    background-color: red;
+    color: white;
+}
+
+.header{
+    min-height: 70px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-size: 30px;
+}
+
+.chat{
+    margin: 20px 0;
+    height: 70vh;
+    overflow-y: auto;
+}
+
+ul{
+    list-style: none;
+}
+
+.message{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 50%;
+    padding: 15px 10px;
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.right{
+    margin-left: auto;
+    background-color: aqua;
+}
+
+.date{
+    font-size: 14px;
+    display: block;
+    margin-left: auto;    
+    width: 130px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    padding: 2px;
+}
+
+footer form{
+    display: flex;
+    align-items: center;
+}
+
+footer button{
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+}
