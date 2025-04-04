@@ -1,0 +1,286 @@
+/*.row .card {*/
+/*    transition: transform 0.3s ease, box-shadow 0.3s ease;*/
+/*}*/
+
+/*.row .card:hover {*/
+/*    transform: scale(1.05);*/
+/*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);*/
+/*}*/
+
+/*.card-img-top {*/
+/*    border-radius: 10px;*/
+/*    background-color: #f8f9fa;*/
+/*}*/
+/*.card-title {*/
+/*    font-size: 1.1rem;*/
+/*    font-weight: bold;*/
+/*    color: #007bff;*/
+/*}*/
+
+/*.card-text {*/
+/*    font-size: 0.9rem;*/
+/*    color: #6c757d;*/
+/*}*/
+
+/*.btn-outline-primary {*/
+/*    border: 1px solid #007bff;*/
+/*    color: #007bff;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.btn-outline-primary:hover {*/
+/*    background-color: #007bff;*/
+/*    color: #fff;*/
+/*}*/
+
+/*.btn-outline-danger {*/
+/*    border: 1px solid #dc3545;*/
+/*    color: #dc3545;*/
+/*    transition: all 0.3s ease;*/
+/*}*/
+
+/*.btn-outline-danger:hover {*/
+/*    background-color: #dc3545;*/
+/*    color: #fff;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Umumiy stil */
+body {
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* Container */
+.ota-div {
+    padding: 20px;
+    margin-top: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Karta dizayni */
+.card {
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Tugmalar */
+.btn-success, .btn-danger {
+    transition: all 0.3s ease;
+}
+
+.btn-success:hover {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+}
+
+.btn-danger:hover {
+    background: linear-gradient(to right, #ff512f, #dd2476);
+    color: white;
+}
+
+/* Input */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Qora va oq rejim */
+.bg-dark .ota-div {
+    background: #1e1e1e;
+    color: white;
+}
+
+.bg-dark .card {
+    background: #292929;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======== Custom Font ======== */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ======== Container ======== */
+.ota-div {
+    margin-top: 40px;
+    padding: 20px;
+}
+
+/* ======== Header ======== */
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+
+.bg-dark h1 {
+    color: #ffffff;
+}
+
+/* ======== Cardlar ======== */
+.containers {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card {
+    padding: 15px 20px;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+    border: none;
+    word-break: break-word;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.card.bg-dark {
+    border: 1px solid #444;
+}
+
+.card.bg-warning {
+    background-color: #139519 !important;
+}
+
+.card.bg-primary {
+    background-color: #3b82f6 !important;
+}
+
+.card.bg-dark.text-white {
+    background-color: #1c1c1c !important;
+}
+
+/* ======== Buttonlar va Iconlar ======== */
+.buton, .buton2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.buton button, .buton2 button {
+    margin-left: 10px;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    padding: 6px 10px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.buton button:hover,
+.buton2 button:hover {
+    transform: scale(1.15);
+}
+
+textarea.form-control {
+    resize: none;
+    min-height: 120px;
+    border-radius: 0.8rem;
+    padding: 12px 15px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.bg-dark textarea.form-control {
+    background-color: #222 !important;
+    color: #fff;
+    border: 1px solid #555;
+}
+
+/* ======== Search input ======== */
+input[type="search"] {
+    padding: 10px 15px;
+    font-size: 1rem;
+    border-radius: 0.7rem;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease-in-out;
+}
+
+input[type="search"]:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.25);
+}
+
+/* ======== Remaining text ======== */
+.buton2 p {
+    margin: 0;
+    font-weight: 500;
+    color: #333;
+}
+
+.bg-dark .buton2 p {
+    color: #ccc;
+}
+
+/* ======== Responsive ======== */
+@media (max-width: 768px) {
+    .ota-div {
+        width: 100% !important;
+    }
+
+    .buton2 {
+        flex-direction: column;
+        gap: 10px;
+        align-items: flex-start;
+    }
+
+    .buton2 button {
+        margin-left: 0;
+    }
+}
+
