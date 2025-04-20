@@ -1,0 +1,127 @@
+:root {
+    --primary-main: #166534;       /* Deep Green */
+    --primary-light: #86efac;      /* Light Green */
+    --primary-dark: #14532d;       /* Darker Green */
+    --background-paper: #f0fdf4;   /* Soft Green Background */
+    --text-secondary: #4d7c0f;     /* Olive Green */
+}
+
+.bodyblue {
+    background-color: #dcfce7 !important;
+}
+
+/* Header Styling */
+.header {
+    background-color: var(--primary-main) !important;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.header h1,
+.header-title {
+    color: white;
+    font-weight: bold;
+}
+
+/* Button Styling */
+.btn {
+    background-color: var(--primary-main);
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #15803d;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(22, 101, 52, 0.3);
+}
+
+.btn-all {
+    background-color: #ecfdf5;
+    color: var(--primary-main) !important;
+    border: 1px solid #bbf7d0 !important;
+}
+
+.btn-all:hover {
+    background-color: #d1fae5;
+}
+
+/* Layout Containers */
+.main-container {
+    background-color: #f0fdf4 !important;
+    background-image: radial-gradient(#bbf7d0 1px, transparent 1px);
+}
+
+.paper-container {
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(22, 101, 52, 0.08);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+/* Inputs and Selects */
+.search-input .MuiOutlinedInput-root {
+    border-radius: 12px;
+    background-color: #ecfdf5;
+}
+
+.select-input .MuiSelect-select,
+.select-items .MuiSelect-select {
+    color: var(--primary-main);
+}
+
+.select-items .MuiOutlinedInput-notchedOutline {
+    border-color: #bbf7d0;
+}
+
+/* Pagination */
+.custom-pagination .MuiPaginationItem-root {
+    color: var(--primary-main);
+    border-color: #86efac;
+}
+
+.custom-pagination .Mui-selected {
+    background-color: #4ade80 !important;
+    color: white !important;
+}
+
+/* Posts and Photos Containers */
+.posts-container,
+.photos-container {
+    background-color: #f0fdf4;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.posts-title,
+.photos-title {
+    color: #14532d;
+    font-weight: 700;
+}
+
+.photos-container .photos-title .photos-count {
+    background-color: #bbf7d0 !important;
+    color: #166534 !important;
+}
+
+/* Button Hover Animation */
+button:hover {
+    opacity: 0.9;
+    transform: scale(1.03);
+}
+.add-user-button {
+    background-color: #166534 !important;
+    color: white !important;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.add-user-button:hover {
+    background-color: #15803d !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(22, 101, 52, 0.3);
+}
