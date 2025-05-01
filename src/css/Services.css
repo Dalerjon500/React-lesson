@@ -1,0 +1,59 @@
+.servisec{
+    padding: 50px 0 50px 0;
+    margin-top: 20px;
+}
+
+.servisec h1{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.servisec p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.servisec .text-center{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.servisec-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    text-align: center;
+}
+
+.servisec-card h2{
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.servisec-card p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+
+.servisec-card{
+    border: 1px solid #E5E5E5;
+    padding: 30px ;
+    border-radius: 40px;
+}
+
+.servisec-card:hover{
+    cursor: pointer;
+    transition: all 0.3s ease;
+    transform: scale(1.1);
+    background-color: #737cff8c;
+    color: #fff;
+    box-shadow: 0px 4px 35px 0px #545EE18C;
+}
+
+.servisec-card img{
+    width: 20%;
+    margin-bottom: 20px;
+}

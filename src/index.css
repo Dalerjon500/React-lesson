@@ -1,0 +1,39 @@
+@import "./css/Header.css";
+@import "./css/Admin.css";
+@import "./css/Super_Admin.css";
+@import "./css/Main.css";
+@import "./css/Services.css";
+@import "./css/SectionOurSales.css";
+@import "./css/SectionProject.css";
+@import "./css/Footer.css";
+@import "./css/Settings.css";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.container{
+    max-width: 1400px !important;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}

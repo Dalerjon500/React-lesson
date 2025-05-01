@@ -1,0 +1,40 @@
+.settings-container {
+    background-color: #f8f9fa;
+}
+
+.user-role-badge {
+    transition: all 0.3s ease;
+}
+
+.user-role-badge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.list-group-item {
+    transition: background-color 0.2s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+
+.bg-purple {
+    background-color: #6f24fb !important;
+}
+.text-purple {
+    color: #d5c7f0 !important;
+}
+
+.react-select-container {
+    width: 100%;
+}
+
+.react-select__option--is-selected {
+    background-color: #007bff;
+    color: white;
+}
+
+.react-select__option--is-focused {
+    background-color: #e9ecef;
+}

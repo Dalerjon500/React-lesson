@@ -1,0 +1,113 @@
+
+.main{
+    background: #545EE1;
+    padding: 50px 100px;
+}
+
+.main .container{
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+
+.main .left-side{
+    width: 50%;
+}
+
+.main .right-side{
+    width: 50%;
+}
+
+.main .left-side h1{
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.main .left-side p{
+    font-size: 24px;
+    color: #E5E5E5;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+.main .left-side .btn-main{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.main .left-side .btn-main .btn-contact{
+    background: #ffff;
+    color: #080A2B;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main .left-side .btn-main .btn-contact:hover{
+    box-shadow: 0 4px 12px rgba(77, 61, 245, 0.3);
+    transform: translateY(-1px);
+}
+
+.main .left-side .btn-main .btn-video{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: none;
+    color: #ffff;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.main .left-side .btn-main .btn-video:hover{
+    box-shadow: 0 4px 12px rgba(77, 61, 245, 0.3);
+    transform: translateY(-1px);
+}
+
+/* great section  */
+
+.section-great-agency{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 100px;
+}
+
+.section-great-agency .left-side{
+    width: 50%;
+}
+
+.section-great-agency .right-side{
+    width: 50%;
+}
+
+.section-great-agency .right-side h1{
+    font-size: 48px;
+    color: #080A2B;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.section-great-agency .right-side span{
+    font-size: 18px;
+    color: #333333;
+    font-weight: 600;
+}
+
+.section-great-agency .right-side p{
+    text-transform: capitalize ;
+    font-size: 14px;
+    color: #666666;
+    margin-top: 20px;
+    font-weight: 500;
+}
